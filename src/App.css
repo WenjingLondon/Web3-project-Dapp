@@ -1,0 +1,134 @@
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/public/images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.Token-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+.Token-logo {
+  animation: App-logo-spin infinite 15s linear;
+  width: 100px; 
+  height: auto;
+}
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-button:hover {
+  background-color: #21a1f1;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.Balance-Faucet-container {
+  display: flex;
+  justify-content: space-between; /* Ensures Balance and Faucet are on the same row */
+  width: 100%; /* Make sure it takes the full width */
+  align-items: center; /* Vertically center the items */
+}
+
+.Balance-container {
+  flex: 1; /* Makes it take available space */
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0; /* Adjusted margin to avoid unnecessary space */
+  font-size: 18px;
+  color: black;
+}
+
+.Balance-Faucet-container {
+  display: flex;
+  justify-content: space-between; /* Ensures Balance and Faucet are on the same row */
+  width: 100%; /* Make sure it takes the full width */
+  align-items: center; /* Vertically center the items */
+}
+
+.Balance-of-token {
+  color: black;
+  font-size: 12px;
+}
+
+
+.Token-faucet-title {
+  color: goldenrod; 
+  font-size: 18px; 
+  text-align: right; 
+  margin-right: 1px; 
+}
+
+.Faucet-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.Faucet-button {
+  background-color: gold;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem; 
+}
+
+.Faucet-button:hover {
+  background-color: #ffd700;
+}
+
+.Status-message {
+  color: green;
+  font-size: 0.8rem; 
+  margin-top: 5px;
+  text-align: right;
+}
