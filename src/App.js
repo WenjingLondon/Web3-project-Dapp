@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from "react";
-import { connectWallet, claimFaucet } from "./Web3/interactions";  
+import { claimFaucet } from "./Web3/interactions";  
 import Transfer from "./components/Transfer";
 
 function App() {

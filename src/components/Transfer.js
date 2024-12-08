@@ -82,7 +82,8 @@ const Transfer = () => {
           {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
         </div>
       ) : (
-        <button onClick={handleConnectWallet}>ConnectABC Wallet</button>
+        <button onClick={handleConnectWallet} style={{ fontSize: '16px',backgroundColor: 'green'}}>
+            Enter Transfer Information</button>
       )}
     </div>
   );
