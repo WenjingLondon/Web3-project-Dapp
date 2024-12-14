@@ -26,5 +26,12 @@ The DApp is deployed and tested on the **Sepolia Testnet**.
 - This project is strictly for learning and testing purposes.
 - Please only interact with the application on the **Sepolia Testnet**.
 
+- ### Running Locally
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your browser and connect to the Sepolia Testnet using MetaMask.
+
+
 ## Thank You
 Thank you for testing Maurice Token DApp! Feedback and suggestions are welcome.
