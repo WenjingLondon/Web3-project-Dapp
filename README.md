@@ -8,6 +8,7 @@ This is my very first Web3 practice project: **Maurice Token DApp**.
 Maurice Token DApp is a simple decentralized application that allows users to:
 1. **Claim Tokens**: New accounts can claim 30 Maurice tokens (once only).
 2. **Transfer Tokens**: Transfer Maurice tokens to other accounts by specifying the recipient's address.
+3. **ContractAddress**: "0x8af7d1d8c3a31bf31fc47c9a2977be5e8d1fe29d"; 
 
 The DApp is deployed and tested on the **Sepolia Testnet**.
 
